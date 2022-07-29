@@ -1,0 +1,24 @@
+{
+  "name": "shopbaccronjobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exchangeRates": "node ./scripts/exchange_rates.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notoursllc/shopBacCronJobs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notoursllc/shopBacCronJobs/issues"
+  },
+  "homepage": "https://github.com/notoursllc/shopBacCronJobs#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
